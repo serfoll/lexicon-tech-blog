@@ -28,8 +28,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Coming Soon]()
-- Live Site URL: [Girhub repo](https://github.com/serfoll/lexicon-tech-blog)
+- Solution URL: [Girhub repo](https://github.com/serfoll/lexicon-tech-blog)
+- Live Site URL: [Netlify TechBlog](https://sf-lexicon-techblog.netlify.app)
 
 ## My process
 
