@@ -1,14 +1,12 @@
-<!-- @format -->
+# Lexicon IT Proffs - TechBlog Solution
 
-# Lexicon IT Proffs - Tech Blog Solution
+![Design preview for the TechBlog page coding challenge](./preview.png)
 
-![Design preview for the Tech Blog page coding challenge](./preview.png)
-
-This is a solution to the Tech Blog challenge by [Lexicon IT Proffs](https://lexicon.se) for the front-end developer bootcamp.
+This is a solution to the TechBlog challenge by [Lexicon IT Proffs](https://lexicon.se) for the front-end developer bootcamp.
 
 ## Table of contents
 
-- [Lexicon IT Proffs - Tech Blog Solution](#lexicon-it-proffs---tech-blog-solution)
+- [Lexicon IT Proffs - TechBlog Solution](#lexicon-it-proffs---techblog-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
