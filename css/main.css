@@ -108,8 +108,8 @@ label {
     }
 
     &:has(input[type='search']:focus-within) {
-      outline: 0.12rem solid var(--clr-neutral-50);
-      outline-offset: 0.12rem;
+      outline: 0.18rem solid var(--clr-neutral-50);
+      outline-offset: 0.18rem;
     }
   }
 }
@@ -124,8 +124,8 @@ a {
   &:focus-within {
     border-radius: 0.08rem;
     color: var(--clr-primary-500);
-    outline: 0.12rem solid var(--clr-primary-500);
-    outline-offset: 0.12rem;
+    outline: 0.18rem solid var(--clr-primary-500);
+    outline-offset: 0.18rem;
   }
 }
 
@@ -324,6 +324,7 @@ a {
   top: 0;
 
   .wrapper:not([role='list']) {
+    align-items: center;
     display: grid;
     gap: 0 var(--space-sm);
     grid-auto-flow: column;
@@ -353,12 +354,13 @@ a {
       grid-area: sub;
       justify-self: end;
       justify-content: center;
+      height: 2.4rem;
       padding-inline: var(--space-xs);
 
       &:focus-visible,
       &:focus-within {
-        outline: 0.12rem solid var(--clr-primary-100);
-        outline-offset: 0.12rem;
+        outline: 0.18rem solid var(--clr-primary-100);
+        outline-offset: 0.18rem;
       }
 
       &:active {
@@ -437,7 +439,7 @@ a {
         &:focus-visible,
         &:focus-within {
           outline-color: var(--clr-success-500);
-          outline-offset: 0.12rem;
+          outline-offset: 0.18rem;
         }
       }
     }
@@ -675,7 +677,7 @@ a {
             > .nav-toggler-box:focus-visible,
             > .nav-toggler-box:focus-within
           ) {
-          outline: 0.12rem solid var(--clr-primary-500);
+          outline: 0.18rem solid var(--clr-primary-500);
 
           .bar {
             background-color: var(--clr-primary-500);
