@@ -3,16 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link
+      rel="preload"
+      href="./assets/fonts/Inter/Inter-VariableFont_opsz_wght.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="preload"
+      href="./assets/fontawesome/webfonts/fa-brands-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fontawesome/webfonts/fa-regular-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fontawesome/webfonts/fa-solid-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      as="style"
+      href="../assets/fontawesome/css/fontawesome.min.css"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="../assets/fontawesome/css/regular.min.css"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="../assets/fontawesome/css/solid.min.css"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="../assets/fontawesome/css/brands.min.css"
+    />
+
     <link
       rel="stylesheet"
       href="../assets/fontawesome/css/fontawesome.min.css"
     />
-    <link rel="stylesheet" href="../assets/fontawesome/css/brands.min.css" />
     <link rel="stylesheet" href="../assets/fontawesome/css/regular.min.css" />
     <link rel="stylesheet" href="../assets/fontawesome/css/solid.min.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.min.css" />
+
+    <!-- styles -->
+    <link rel="preload" as="style" href="./css/reset.css" />
+    <link rel="preload" as="style" href="./css/typography.css" />
+    <link rel="preload" as="style" href="./css/main.css" />
+
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/typography.css" />
     <link rel="stylesheet" href="./css/main.css" />
+
     <title>Tech Blog - Featured articles</title>
   </head>
   <body>
@@ -104,7 +165,10 @@
           >
             <img
               aria-hidden="true"
-              src="./assets/images/article_1_img.png"
+              fetchpriority="high"
+              height="256"
+              width="800"
+              src="./assets/images/article_1_img.avif"
               alt=""
             />
             <header>
@@ -129,7 +193,12 @@
             </div>
             <footer class="text-xs">
               <figure>
-                <img src="./assets/images/john_smith.png" alt="" />
+                <img
+                  height="40"
+                  width="40"
+                  src="./assets/images/john_smith.avif"
+                  alt=""
+                />
                 <figcaption class="text-xs">
                   <span class="font-500 clr-neutral-900">John Smith</span>
                   <span class="clr-neutral-600">Senior Developer</span>
@@ -148,7 +217,10 @@
           >
             <img
               aria-hidden="true"
-              src="./assets/images/article_2_img.png"
+              fetchpriority="high"
+              height="256"
+              width="800"
+              src="./assets/images/article_2_img.avif"
               alt=""
             />
             <header>
@@ -174,7 +246,12 @@
             </div>
             <footer class="text-xs line-height-xs">
               <figure>
-                <img src="./assets/images/sarah_johnson.png" alt="" />
+                <img
+                  height="40"
+                  width="40"
+                  src="./assets/images/sarah_johnson.avif"
+                  alt=""
+                />
                 <figcaption>
                   <span class="font-500 clr-neutral-900">Sarah Johnson</span>
                   <span class="clr-neutral-600">UX Engineer</span>
@@ -285,6 +362,8 @@
                   href="/articles/essential-javaScript-array-methods"
                 >
                   <img
+                    height="64"
+                    width="64"
                     src="./assets/images/essential_js.png"
                     alt=""
                     aria-hidden="true"
@@ -305,6 +384,8 @@
                   href="/articles/responsive-design-best-practices"
                 >
                   <img
+                    height="64"
+                    width="64"
                     src="./assets/images/responsice_design.png"
                     alt=""
                     aria-hidden="true"
