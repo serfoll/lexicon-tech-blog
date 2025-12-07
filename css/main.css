@@ -421,9 +421,16 @@ a {
       border-radius: 9999px;
       padding: calc(5 / 16 * 1rem) 0.7rem;
       text-decoration: none;
+      margin-inline-end: var(--space-sm);
 
       &:hover {
         opacity: 0.8;
+      }
+
+      &:active,
+      &:focus-visible,
+      &:focus-within {
+        outline-offset: 0.18rem;
       }
 
       &[title^='Web'] {
@@ -439,7 +446,6 @@ a {
         &:focus-visible,
         &:focus-within {
           outline-color: var(--clr-success-500);
-          outline-offset: 0.18rem;
         }
       }
     }
