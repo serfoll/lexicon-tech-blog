@@ -88,6 +88,7 @@ input {
   &[type='search'],
   &[type='text'],
   &[type='email'] {
+    background-color: var(--clr-neutral-50);
     height: 3rem;
     &:focus-visible,
     &:focus-within {
