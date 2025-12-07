@@ -97,6 +97,11 @@ input {
   }
 }
 
+input[type='button'],
+button {
+  cursor: pointer;
+}
+
 label {
   &:has(input[type='search']) {
     cursor: text;
@@ -364,6 +369,7 @@ a {
         outline-offset: 0.18rem;
       }
 
+      &:hover,
       &:active {
         background-color: var(--clr-primary-100);
       }
@@ -550,14 +556,17 @@ a {
       }
 
       button {
+        background-color: var(--clr-neutral-50);
         border: none;
         color: var(--clr-primary-500);
         outline: none;
         padding-block: var(--space-xs);
         width: 100%;
 
-        &:hover {
-          background-color: var();
+        &:hover,
+        &:active {
+          background-color: var(--clr-primary-100);
+          color: var(--clr-neutral-100);
         }
 
         &:focus-visible,
