@@ -421,13 +421,16 @@ a {
   }
 
   header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
     margin-block-start: var(--space-md);
 
     a {
-      border-radius: 9999px;
+      border-radius: 100vw;
       padding: calc(5 / 16 * 1rem) 0.7rem;
       text-decoration: none;
-      margin-inline-end: var(--space-sm);
 
       &:hover {
         opacity: 0.8;
